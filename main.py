@@ -104,6 +104,9 @@ def esdf(M, N, obstacle_list):
 
 
 if __name__ == '__main__':
+    # This is a complex test case
+    esdf_0 = ESDF(M=6, N=7, obstacle_list=[[0, 0], [1, 2], [1,4], [2,5], [3,1], [4,3], [4,6], [5,4]])
+    print(esdf_0.esdf_multi_dimension())
     st = time.time()
     for _ in range(int(2e4)):
         esdf_1 = ESDF(M=3, N=3, obstacle_list=[[0, 1], [2, 2]])
