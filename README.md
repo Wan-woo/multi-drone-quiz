@@ -27,3 +27,9 @@ python main.py
 * After the z and v are done, compute for every grid the minimal distance
 * Scan all the rows, and initialize f every time
 
+## Test Case
+A complex case was added:
+```
+[0, 0], [1, 2], [1,4], [2,5], [3,1], [4,3], [4,6], [5,4] M=6,N=7
+```
+
