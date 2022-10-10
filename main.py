@@ -8,7 +8,7 @@ class ESDF:
     #obstacle_dict = {}
     
 
-    def __init__(self, M, N, obstacle_list) -> None:
+    def __init__(self, M, N, obstacle_list):
         self.Row = M 
         self.Col = N
         self.obstacle_dict = {}
