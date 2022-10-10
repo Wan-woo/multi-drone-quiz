@@ -9,6 +9,7 @@ python main.py
 ```
 
 ## Structure
+```
 ├── Readme.md                   // help  
 ├── result.py                   // result  
 ├── main.py  
@@ -17,6 +18,7 @@ python main.py
 │   │   ├── __init__()  
 │   │   ├── esdf_one_dimensional()  
 │   │   └── esdf_multi_dimensional()  
+```
 
 ## Method
 * Read row by row to compute esdf distance on one dimension
